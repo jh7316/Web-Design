@@ -1,0 +1,170 @@
+body{
+  font-size:20px;
+  font-family:Georgia;
+  color:white;
+  background-image: url("../images/background.gif");
+  background-size: cover;
+  width:90%;
+  margin:0 auto;
+}
+
+h1,h2{
+  text-align:center;
+}
+
+form{
+  margin:0 auto;
+}
+
+
+footer{
+  text-align:center;
+}
+
+table{
+  margin:0 auto;
+}
+
+div#profiles > table tr td{
+  text-align:center;
+}
+
+.footer{
+  width:100%;
+}
+
+img:not(#snoopy, .photoshophw,#gifpic) {
+  border-radius: 300px;
+}
+
+a:link{
+  color:blue;
+}
+
+a:hover{
+  background-color:green;
+  color:yellow;
+}
+
+a:active{
+  background-color:yellow;
+}
+
+a:visited{
+  color:gray;
+}
+
+a:focus{
+  color:purple;
+
+}
+
+#warning
+{
+  width : 100vw;
+  height : 150px;
+  background : yellow;
+
+  position : fixed;
+  top: -150px;
+  left : 0px;
+
+  border-bottom-right-radius : 20px;
+  border-bottom-left-radius : 20px;
+}
+
+.warningMessage
+{
+    border : solid 0px white;
+    min-height : 60px;
+    width : 1024px;
+    margin:0 auto;
+
+    margin-top : 20px;
+
+    color : blue;
+    font-size : 10pt;
+
+}
+
+.warningCancel
+{
+  position : absolute;
+  top : 20px;
+  right : 20px;
+  cursor : pointer;
+}
+
+
+#gifpopup
+{
+  background : rgba(0,0,0,.6);
+  width : 100vw;
+  height : 100vh;
+
+  position : fixed;
+  top : 0px;
+  left : 0px;
+  z-index : 10;
+
+  display:none;
+  justify-content: center;
+  align-items : center;
+}
+
+.gif_message
+{
+  background : white;
+  width : 500px;
+  height : 300px;
+  border-radius : 20px;
+  position : relative;
+
+  display:flex;
+  justify-content: center;
+  align-items : center;
+
+}
+
+.gif_cancel
+{
+  position : absolute;
+  top : 10px;
+  right : 10px;
+  cursor : pointer;
+}
+
+
+#nyu{
+  text-align:center;
+}
+
+
+.photoshophw,#gifpic{
+  width:400px;
+  border-radius:20px;
+}
+
+#photo{
+  text-align:center;
+}
+
+#hwphoto{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items : center;
+}
+
+#profiles{
+  text-align:center;
+}
+
+#snoopy{
+  width:400px;
+  border-radius:50px;
+}
+
+#formtable{
+  width:80%;
+}

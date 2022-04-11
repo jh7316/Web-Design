@@ -1,0 +1,180 @@
+@font-face {
+ font-family: Raleway;
+ src: url(../fonts/Raleway-Regular.ttf);
+}
+
+body{
+  font-family: Raleway;
+  background-color: rgba(47,76,27,1);
+}
+
+.customNavColor{
+  background-color : rgba(219,236,207,1);
+}
+
+.customNavColor,#footer{
+  color : rgba(47,76,27,1);
+}
+
+nav a:link{
+  color : green;
+}
+
+nav a:visited{
+  color : rgba(255,255,255,1);
+}
+
+nav a:hover{
+  color : rgba(168,155,35,1);
+}
+
+.navbar-brand
+{
+  font-family : WhiteOnBlack;
+}
+
+
+.getinvolvedBtn{
+  margin-right:30px;
+}
+
+.col-md-4{
+  border : solid 0px black;
+}
+
+.paddingTop{
+  padding-top : 50px;
+}
+
+
+
+.alignCenter{
+  display : flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.noPadding{
+  padding : 0px;
+}
+
+.alignRight{
+  display : flex;
+  justify-content: flex-end;
+}
+
+#mainArea
+{
+  min-height : 90vh;
+  margin-top : 30px;
+}
+
+#theirsufferings{
+  color: rgba(47,76,27,1);
+}
+
+#sufferingsmainArea
+{
+  min-height : 90vh;
+  margin-top : 30px;
+  color : rgba(219,236,207,1);
+}
+
+
+
+#footer
+{
+  background-color : rgba(219,236,207,1);
+  border : solid 0px black;
+  margin-top : 50px;
+}
+
+.input-group{
+  margin-bottom : 10px;
+}
+
+/* Home Page styles */
+
+.slideImg{
+  height:90vh;
+  width:auto;
+}
+
+.customCarouselItem{
+  border : solid 0px red;
+  background-color : black;
+}
+
+.customCarouselItem img{
+  margin: 0 auto;
+}
+
+.customCarouselItem h5, .customCarouselItem p{
+  text-shadow: 1px 1px 7px rgba(150, 150, 150, 1);
+}
+
+#issues{
+margin-top : 50px;
+}
+
+.customCard{
+  width: 100%;
+  min-height : 75vh;
+}
+
+.cardImg{
+  height : 300px;
+}
+
+.card-text{
+  border : solid 0px black;
+  min-height : 150px;
+}
+
+
+.modal-body,.modal-title
+{
+  color: black;
+}
+
+#titleimage{
+  background-image: url("../images/abandon.jpg");
+  background-color: black;
+
+  text-align: center;
+}
+
+/* Learn page styles */
+
+.lgImg{
+  width : 100%;
+}
+
+p{
+  margin-top : 20px;
+}
+
+/* Media Queries */
+@media only screen
+  and (min-width: 370px)
+  and (max-width: 960px) {
+
+    .getinvolvedBtn{
+      margin : 0 auto;
+      width : 50%;
+      border : solid 0px white;
+    }
+
+    .getinvolvedBtn button{
+      width : 100%;
+    }
+
+    .slideImg{
+      width : 100%;
+      height : auto;
+    }
+
+
+
+
+}
